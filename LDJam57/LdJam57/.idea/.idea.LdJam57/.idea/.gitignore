@@ -1,5 +1,19 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/modules.xml
+/contentModel.xml
+/.idea.LdJam57.iml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
 # Visual Studio 2015 user specific files
-LDJam57/LdJam57/.vs/
+.vs/
 
 # Compiled Object files
 *.slo
@@ -58,7 +72,7 @@ LDJam57/LdJam57/Build/*/**
 !LDJam57/LdJam57/Build/*/PakBlacklist*.txt
 
 # Don't ignore icon files in Build
-!LDJam57/LdJam57/Build/**/*.ico
+!/LDJam57/LdJam57/Build/**/*.ico
 
 # Built data for maps
 *_BuiltData.uasset
@@ -71,7 +85,4 @@ LDJam57/LdJam57/Intermediate/*
 LDJam57/LdJam57/Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
-LDJam57/LdJam57/DerivedDataCache/*
-
-# plugins
-LDJam57/LdJam57/Plugins/Developer/RiderLink/*
+DerivedDataCache/*
